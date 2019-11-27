@@ -8,13 +8,15 @@ class User
         User();
         virtual ~User();
 
-        string Getname() { return name; }
-        void Setname(string val) { name = val; }
+        //string Getname() { return name; }
+        //void Setname(string val) { name = val; }
+
+
 
     protected:
 
     private:
-        string name;
+        //string name;
 };
 
 #endif // USER_H

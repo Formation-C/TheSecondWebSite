@@ -7,6 +7,9 @@
 class Member : public User
 {
     public:
+        int     role;
+        string  password;
+
         Member();
         virtual ~Member();
 
